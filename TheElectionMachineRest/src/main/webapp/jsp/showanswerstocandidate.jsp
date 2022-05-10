@@ -91,7 +91,7 @@
                     <c:when test="${ques.answer==5 }">Strongly agree</c:when>
                     <c:otherwise>No opinion yet</c:otherwise>
                     </c:choose></td>
-                    <th><c:out value="${ques.comment}" /></th>
+                    <td><c:out value="${ques.comment}" /></td>
                 </tr>
 			</c:forEach>
             </tbody>
